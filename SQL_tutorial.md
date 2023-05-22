@@ -19,12 +19,18 @@
      |   =        |   Equal      |
      |   >        | Greater than |
      |   <        | Less than    |
-     |   >=       |Greater than  |
+     |   >=       | Greater than |
                     or Equal      
      |   <=       |  Less than   |
                      or equal           
-     
-     
-
-
+     |   <> / !=  | Not equal    |
+     | BETWEEN    | Between a    |
+                   certain range
+     | LIKE       | Search for   |
+                    a pattern 
+     | IN         | To specify   |
+                    multiple possible 
+                    values for 
+                    a column
+          
      
