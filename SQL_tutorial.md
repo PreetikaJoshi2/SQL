@@ -62,5 +62,4 @@ The NOT operator displays a record if the condition(s) is NOT TRUE.
      SELECT column1, column2, ...
      FROM table_name
      WHERE NOT condition;
-### SQL ORDER BY Keyword:
      
