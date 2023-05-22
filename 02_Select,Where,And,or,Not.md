@@ -57,14 +57,12 @@ The NOT operator displays a record if the condition(s) is NOT TRUE.
      SELECT column1, column2, ...
      FROM table_name
      WHERE condition1 AND condition2 AND condition3 ...;
-(Display that record which fullfill all the AND statement TRUE).
      SELECT * FROM Customers
-     WHERE Country='Germany' AND City='Berlin';
+     WHERE Country='Germany' AND City='Berlin';   
  #### OR Syntax:
      SELECT column1, column2, ...
      FROM table_name
      WHERE condition1 OR condition2 OR condition3 ...;
-(Display that record which fullfill any OR statement TRUE).
      SELECT * FROM Customers
      WHERE City='Berlin' OR City='München';
 #### NOT Synatx:
