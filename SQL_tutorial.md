@@ -37,7 +37,7 @@
          LIKE       Search for   
                     a pattern 
      ______________________________            
-        IN          To specify   
+          IN        To specify   
                     multiple possible 
                     values for 
                     a column
