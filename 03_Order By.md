@@ -9,8 +9,11 @@
     SELECT * FROM Customers
     ORDER BY Country;
 #### ORDER BY SYNTAX FOR DESC:
-    SELECT * FROM Customers
+   SELECT * FROM Customers
     ORDER BY Country DESC;
 #### ORDER BY Several Columns 
     SELECT * FROM Customers
     ORDER BY Country ASC, CustomerName DESC;
+
+
+
