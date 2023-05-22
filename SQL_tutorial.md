@@ -15,20 +15,29 @@
 #### Syntax
      SELECT column1, column2, ...FROM table_name WHERE condition;
 ### Operators in Where Clause
-     |  Operator  | Discription  |
-     |   =        |   Equal      |
-     |   >        | Greater than |
-     |   <        | Less than    |
-     |   >=       | Greater than |
-                    or Equal      
-     |   <=       |  Less than   |
-                     or equal           
-     |   <> / !=  | Not equal    |
-     | BETWEEN    | Between a    |
-                   certain range
-     | LIKE       | Search for   |
+      Operator  |   Discription  
+     _____________________________
+          =           Equal      
+     _____________________________
+          >         Greater than
+     _____________________________
+          <         Less than   
+     _____________________________
+          >=        Greater than 
+                     or Equal      
+      ____________________________              
+         <=         Less than   
+                     or equal   
+     ____________________________              
+         <> / !=    Not equal    
+     _____________________________
+       BETWEEN      Between a    
+                    certain range
+     ______________________________              
+       LIKE         Search for   
                     a pattern 
-     | IN         | To specify   |
+     ______________________________            
+      IN            To specify   
                     multiple possible 
                     values for 
                     a column
