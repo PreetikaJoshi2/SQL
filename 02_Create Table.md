@@ -22,12 +22,3 @@ The StudentID column is of type int and will hold an integer.
 A copy of the existing table can be created by using CREATE TABLE.
 1) The new table gets the same column definitions. All columns or specific columns can be selected.
 2) If you create a new table using an existing table, the new table will be filled with the existing values from the old table.
-    
-    CREATE TABLE new_table_name AS
-    SELECT column1, column2,...
-    FROM existing_table_name
-    WHERE ....;
-    
-    CREATE TABLE TestTable AS
-    SELECT customername, contactname
-    FROM customers;
