@@ -6,8 +6,10 @@
     SELECT column1, column2, ...
     FROM table_name
     ORDER BY column1, column2, ...
-  ->SELECT * FROM Customers
+    SELECT * FROM Customers
     ORDER BY Country;
 ### ORDER BY SYNTAX FOR DESC:
+    SELECT * FROM Customers
+    ORDER BY Country DESC;
     
 
