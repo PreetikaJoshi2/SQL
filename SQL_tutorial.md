@@ -58,3 +58,9 @@ The NOT operator displays a record if the condition(s) is NOT TRUE.
      FROM table_name
      WHERE condition1 OR condition2 OR condition3 ...;
 (Display that record which fullfill any OR statement TRUE).
+#### NOT Synatx:
+     SELECT column1, column2, ...
+     FROM table_name
+     WHERE NOT condition;
+### SQL ORDER BY Keyword:
+     
